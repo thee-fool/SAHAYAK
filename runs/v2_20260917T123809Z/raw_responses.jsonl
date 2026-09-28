@@ -1,0 +1,150 @@
+{"id": "golden-0008", "source": "rule", "rule_id": "bug_crash_export"}
+{"id": "golden-0147", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.12760001118294895}
+{"id": "golden-0011", "source": "rule", "rule_id": "bug_white_text_contrast"}
+{"id": "golden-0049", "source": "rule", "rule_id": "bug_crash_export"}
+{"id": "golden-0070", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.05399997462518513}
+{"id": "golden-0120", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0021", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0080", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0074", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.039799982914701104}
+{"id": "golden-0082", "source": "rule", "rule_id": "billing_duplicate_charge"}
+{"id": "golden-0119", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0061", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03309999010525644}
+{"id": "golden-0114", "source": "rule", "rule_id": "shipping_change_address"}
+{"id": "golden-0024", "source": "rule", "rule_id": "account_password_reset"}
+{"id": "golden-0122", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0031", "source": "rule", "rule_id": "shipping_not_received"}
+{"id": "golden-0003", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0059", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0105", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.039000005926936865}
+{"id": "golden-0033", "source": "rule", "rule_id": "shipping_package_damaged"}
+{"id": "golden-0057", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0030", "source": "rule", "rule_id": "shipping_stuck_transit"}
+{"id": "golden-0045", "source": "rule", "rule_id": "billing_refund_request"}
+{"id": "golden-0009", "source": "rule", "rule_id": "bug_blank_screen"}
+{"id": "golden-0087", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.039099977584555745}
+{"id": "golden-0060", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.030099996365606785}
+{"id": "golden-0097", "source": "rule", "rule_id": "bug_infinite_loading"}
+{"id": "golden-0012", "source": "rule", "rule_id": "bug_upload_size_error"}
+{"id": "golden-0071", "source": "rule", "rule_id": "shipping_stuck_transit"}
+{"id": "golden-0013", "source": "rule", "rule_id": "bug_sync_stopped"}
+{"id": "golden-0126", "source": "api", "raw_response": "{\"category\": \"bug\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.03480000304989517}
+{"id": "golden-0110", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.035900011425837874}
+{"id": "golden-0137", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.03679998917505145}
+{"id": "golden-0083", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.04300000728107989}
+{"id": "golden-0131", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.03739999374374747}
+{"id": "golden-0081", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0108", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.031000003218650818}
+{"id": "golden-0064", "source": "rule", "rule_id": "account_locked_out"}
+{"id": "golden-0058", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0094", "source": "rule", "rule_id": "bug_upload_size_error"}
+{"id": "golden-0111", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.036299985367804766}
+{"id": "golden-0018", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0135", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03840000135824084}
+{"id": "golden-0040", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0139", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0104", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029499991796910763}
+{"id": "golden-0052", "source": "rule", "rule_id": "bug_white_text_contrast"}
+{"id": "golden-0091", "source": "rule", "rule_id": "bug_blank_screen"}
+{"id": "golden-0127", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03940000897273421}
+{"id": "golden-0101", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029399991035461426}
+{"id": "golden-0145", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.030700000934302807}
+{"id": "golden-0138", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.04049998824484646}
+{"id": "golden-0088", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029199989512562752}
+{"id": "golden-0002", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.027999980375170708}
+{"id": "golden-0124", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0025", "source": "rule", "rule_id": "account_two_factor"}
+{"id": "golden-0004", "source": "rule", "rule_id": "billing_refund_request"}
+{"id": "golden-0066", "source": "rule", "rule_id": "account_two_factor"}
+{"id": "golden-0051", "source": "rule", "rule_id": "bug_duplicate_notifications"}
+{"id": "golden-0042", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0100", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0035", "source": "rule", "rule_id": "shipping_wrong_item"}
+{"id": "golden-0073", "source": "rule", "rule_id": "shipping_change_address"}
+{"id": "golden-0029", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.03670001751743257}
+{"id": "golden-0048", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.030499999411404133}
+{"id": "golden-0016", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0022", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03770002513192594}
+{"id": "golden-0093", "source": "rule", "rule_id": "bug_white_text_contrast"}
+{"id": "golden-0063", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.02710000262595713}
+{"id": "golden-0078", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0015", "source": "rule", "rule_id": "bug_infinite_loading"}
+{"id": "golden-0121", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0037", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0032", "source": "rule", "rule_id": "shipping_change_address"}
+{"id": "golden-0134", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.03960001049563289}
+{"id": "golden-0098", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0038", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0026", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029799994081258774}
+{"id": "golden-0000", "source": "rule", "rule_id": "billing_duplicate_charge"}
+{"id": "golden-0132", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.035500008380040526}
+{"id": "golden-0118", "source": "api", "raw_response": "{\"category\": \"other\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03360002301633358}
+{"id": "golden-0050", "source": "rule", "rule_id": "bug_blank_screen"}
+{"id": "golden-0028", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.07939999341033399}
+{"id": "golden-0005", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029999995604157448}
+{"id": "golden-0123", "source": "rule", "rule_id": "billing_duplicate_charge"}
+{"id": "golden-0085", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0067", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.02719997428357601}
+{"id": "golden-0103", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.06779999239370227}
+{"id": "golden-0075", "source": "rule", "rule_id": "shipping_expedite"}
+{"id": "golden-0090", "source": "rule", "rule_id": "bug_crash_export"}
+{"id": "golden-0149", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.0641999940853566}
+{"id": "golden-0133", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.21120000747032464}
+{"id": "golden-0095", "source": "rule", "rule_id": "bug_sync_stopped"}
+{"id": "golden-0130", "source": "api", "raw_response": "{\"category\": \"bug\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.19230000907555223}
+{"id": "golden-0044", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0014", "source": "rule", "rule_id": "bug_search_zero_results"}
+{"id": "golden-0065", "source": "rule", "rule_id": "account_password_reset"}
+{"id": "golden-0112", "source": "rule", "rule_id": "shipping_stuck_transit"}
+{"id": "golden-0027", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.14680001186206937}
+{"id": "golden-0128", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.18130001262761652}
+{"id": "golden-0053", "source": "rule", "rule_id": "bug_upload_size_error"}
+{"id": "golden-0106", "source": "rule", "rule_id": "account_password_reset"}
+{"id": "golden-0077", "source": "api", "raw_response": "{\"category\": \"other\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.048999994760379195}
+{"id": "golden-0062", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0054", "source": "rule", "rule_id": "bug_sync_stopped"}
+{"id": "golden-0084", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.06120000034570694}
+{"id": "golden-0056", "source": "rule", "rule_id": "bug_infinite_loading"}
+{"id": "golden-0034", "source": "rule", "rule_id": "shipping_expedite"}
+{"id": "golden-0117", "source": "rule", "rule_id": "shipping_wrong_item"}
+{"id": "golden-0140", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.07440001354552805}
+{"id": "golden-0115", "source": "rule", "rule_id": "shipping_package_damaged"}
+{"id": "golden-0141", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.0475000124424696}
+{"id": "golden-0129", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.04220000118948519}
+{"id": "golden-0125", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.04509999416768551}
+{"id": "golden-0019", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.04469999112188816}
+{"id": "golden-0146", "source": "api", "raw_response": "{\"category\": \"bug\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.04260000423528254}
+{"id": "golden-0113", "source": "rule", "rule_id": "shipping_not_received"}
+{"id": "golden-0010", "source": "rule", "rule_id": "bug_duplicate_notifications"}
+{"id": "golden-0076", "source": "rule", "rule_id": "shipping_wrong_item"}
+{"id": "golden-0072", "source": "rule", "rule_id": "shipping_not_received"}
+{"id": "golden-0099", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0041", "source": "rule", "rule_id": "billing_duplicate_charge"}
+{"id": "golden-0092", "source": "rule", "rule_id": "bug_duplicate_notifications"}
+{"id": "golden-0039", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0047", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.032400013878941536}
+{"id": "golden-0020", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.19130000146105886}
+{"id": "golden-0043", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.031800009310245514}
+{"id": "golden-0116", "source": "rule", "rule_id": "shipping_expedite"}
+{"id": "golden-0107", "source": "rule", "rule_id": "account_two_factor"}
+{"id": "golden-0096", "source": "rule", "rule_id": "bug_search_zero_results"}
+{"id": "golden-0055", "source": "rule", "rule_id": "bug_search_zero_results"}
+{"id": "golden-0023", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"high\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.04029998672194779}
+{"id": "golden-0144", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.03609998384490609}
+{"id": "golden-0136", "source": "api", "raw_response": "{\"category\": \"shipping\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.040099985199049115}
+{"id": "golden-0017", "source": "rule", "rule_id": "feature_request_phrasing"}
+{"id": "golden-0102", "source": "api", "raw_response": "{\"category\": \"feature_request\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.02920001861639321}
+{"id": "golden-0036", "source": "api", "raw_response": "{\"category\": \"other\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.029699993319809437}
+{"id": "golden-0148", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.037699996028095484}
+{"id": "golden-0001", "source": "rule", "rule_id": "billing_invoice_receipt"}
+{"id": "golden-0089", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.05529998452402651}
+{"id": "golden-0086", "source": "rule", "rule_id": "billing_refund_request"}
+{"id": "golden-0079", "source": "rule", "rule_id": "other_discount_or_policy"}
+{"id": "golden-0069", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.0399000127799809}
+{"id": "golden-0046", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.04270000499673188}
+{"id": "golden-0007", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"low\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.031000003218650818}
+{"id": "golden-0068", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.025599991204217076}
+{"id": "golden-0006", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": false}", "schema_valid": true, "latency_ms": 0.027900008717551827}
+{"id": "golden-0142", "source": "api", "raw_response": "{\"category\": \"billing\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.041399995097890496}
+{"id": "golden-0143", "source": "api", "raw_response": "{\"category\": \"bug\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.038300000596791506}
+{"id": "golden-0109", "source": "api", "raw_response": "{\"category\": \"account_access\", \"urgency\": \"medium\", \"needs_human\": true}", "schema_valid": true, "latency_ms": 0.023200002033263445}

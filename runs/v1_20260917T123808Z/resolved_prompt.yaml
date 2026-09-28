@@ -1,0 +1,45 @@
+version: v1
+model: claude-haiku-4-5-20251001
+temperature: 0.0
+max_tokens: 200
+system_prompt: 'You classify customer support tickets. Read the ticket and output
+  a JSON
+
+  object with these fields: category, urgency, needs_human.
+
+
+  category is one of: billing, bug, feature_request, account_access, shipping, other.
+
+  urgency is one of: low, medium, high.
+
+  needs_human is true or false.
+
+
+  Output only the JSON object, nothing else.
+
+  '
+few_shot: []
+output_schema:
+  type: object
+  required:
+  - category
+  - urgency
+  - needs_human
+  properties:
+    category:
+      type: string
+      enum:
+      - billing
+      - bug
+      - feature_request
+      - account_access
+      - shipping
+      - other
+    urgency:
+      type: string
+      enum:
+      - low
+      - medium
+      - high
+    needs_human:
+      type: boolean

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>kasoti report: v1 vs v2</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 960px;
+          margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; border-bottom: 1px solid #8884; padding-bottom: .25rem; }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; }
+  th, td { border: 1px solid #8886; padding: .35rem .6rem; text-align: left; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.good { color: #1a7f37; font-weight: 600; }
+  td.bad { color: #cf222e; font-weight: 600; }
+  td.diag { background: #80808022; font-weight: 600; }
+  .meta { color: #808080; font-size: .9rem; }
+  .flips { font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: .85rem; word-break: break-word; }
+  caption { caption-side: top; text-align: left; font-weight: 600; margin-bottom: .25rem; }
+  table.confusion { display: inline-block; margin-right: 1.5rem; vertical-align: top; max-width: 100%; overflow-x: auto; }
+</style>
+</head>
+<body>
+<h1>kasoti regression report: v1 vs v2</h1>
+<p class="meta">Generated 2026-09-17 12:38 UTC &middot; run A: v1_20260917T123808Z &middot; run B: v2_20260917T123809Z</p>
+
+<h2>Metrics</h2>
+<table>
+  <thead><tr><th>Metric</th><th class="num">v1</th><th class="num">v2</th><th class="num">delta</th></tr></thead>
+  <tbody><tr><td>Overall accuracy</td><td class="num">0.933</td><td class="num">0.993</td><td class="num good">+0.060</td></tr><tr><td>Category macro F1</td><td class="num">0.964</td><td class="num">1.000</td><td class="num good">+0.036</td></tr><tr><td>Urgency macro F1</td><td class="num">0.986</td><td class="num">1.000</td><td class="num good">+0.014</td></tr><tr><td>Needs-human F1</td><td class="num">0.973</td><td class="num">0.993</td><td class="num good">+0.021</td></tr><tr><td>Rule hit rate</td><td class="num">0.567</td><td class="num">0.567</td><td class="num">0.000</td></tr><tr><td>API calls made</td><td class="num">65</td><td class="num">65</td><td class="num">0.000</td></tr><tr><td>Schema violation rate</td><td class="num">0.031</td><td class="num">0.000</td><td class="num good">-0.031</td></tr><tr><td>Cost / 1000 tickets (INR)</td><td class="num">3.206</td><td class="num">9.469</td><td class="num bad">+6.263</td></tr><tr><td>Latency p50 (ms)</td><td class="num">0.029</td><td class="num">0.038</td><td class="num bad">+0.010</td></tr><tr><td>Latency p95 (ms)</td><td class="num">0.045</td><td class="num">0.174</td><td class="num bad">+0.130</td></tr><tr><td>Guardrail attack success rate</td><td class="num">0.533</td><td class="num">0.067</td><td class="num good">-0.467</td></tr></tbody>
+</table>
+
+<h2>Confusion matrices &mdash; category</h2>
+<div>
+<table class="confusion"><caption>v1 — rows: true, columns: predicted</caption><thead><tr><th>true \ pred</th><th class="num">billing</th><th class="num">bug</th><th class="num">feature_request</th><th class="num">account_access</th><th class="num">shipping</th><th class="num">other</th></tr></thead><tbody><tr><th>billing</th><td class="num diag">30</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td class="num">0</td><td class="num">2</td></tr><tr><th>bug</th><td class="num">0</td><td class="num diag">27</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td></tr><tr><th>feature_request</th><td class="num">0</td><td class="num">0</td><td class="num diag">24</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><th>account_access</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">26</td><td class="num">1</td><td class="num">0</td></tr><tr><th>shipping</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">23</td><td class="num">0</td></tr><tr><th>other</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">15</td></tr></tbody></table>
+<table class="confusion"><caption>v2 — rows: true, columns: predicted</caption><thead><tr><th>true \ pred</th><th class="num">billing</th><th class="num">bug</th><th class="num">feature_request</th><th class="num">account_access</th><th class="num">shipping</th><th class="num">other</th></tr></thead><tbody><tr><th>billing</th><td class="num diag">33</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><th>bug</th><td class="num">0</td><td class="num diag">28</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><th>feature_request</th><td class="num">0</td><td class="num">0</td><td class="num diag">24</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr><tr><th>account_access</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">27</td><td class="num">0</td><td class="num">0</td></tr><tr><th>shipping</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">23</td><td class="num">0</td></tr><tr><th>other</th><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num diag">15</td></tr></tbody></table>
+</div>
+
+<h2>Confusion matrices &mdash; urgency</h2>
+<div>
+<table class="confusion"><caption>v1 — rows: true, columns: predicted</caption><thead><tr><th>true \ pred</th><th class="num">low</th><th class="num">medium</th><th class="num">high</th></tr></thead><tbody><tr><th>low</th><td class="num diag">59</td><td class="num">0</td><td class="num">0</td></tr><tr><th>medium</th><td class="num">1</td><td class="num diag">57</td><td class="num">1</td></tr><tr><th>high</th><td class="num">0</td><td class="num">0</td><td class="num diag">32</td></tr></tbody></table>
+<table class="confusion"><caption>v2 — rows: true, columns: predicted</caption><thead><tr><th>true \ pred</th><th class="num">low</th><th class="num">medium</th><th class="num">high</th></tr></thead><tbody><tr><th>low</th><td class="num diag">59</td><td class="num">0</td><td class="num">0</td></tr><tr><th>medium</th><td class="num">0</td><td class="num diag">59</td><td class="num">0</td></tr><tr><th>high</th><td class="num">0</td><td class="num">0</td><td class="num diag">32</td></tr></tbody></table>
+</div>
+
+<h2>Guardrail: attack success rate by type</h2>
+<table>
+  <thead><tr><th>Attack type</th><th class="num">v1</th><th class="num">v2</th></tr></thead>
+  <tbody><tr><td>instruction_override</td><td class="num">0.250</td><td class="num">0.000</td></tr><tr><td>label_override</td><td class="num">0.750</td><td class="num">0.000</td></tr><tr><td>roleplay_jailbreak</td><td class="num">1.000</td><td class="num">0.000</td></tr><tr><td>schema_break</td><td class="num">0.333</td><td class="num">0.000</td></tr><tr><td>urgency_escalation</td><td class="num">0.667</td><td class="num">0.333</td></tr></tbody>
+</table>
+
+<h2>Flipped tickets</h2>
+<p><strong>Incorrect &rarr; correct</strong> (9):</p>
+<p class="flips">golden-0028, golden-0047, golden-0061, golden-0087, golden-0088, golden-0138, golden-0142, golden-0144, golden-0146</p>
+<p><strong>Correct &rarr; incorrect</strong> (0):</p>
+<p class="flips">(none)</p>
+
+</body>
+</html>
